@@ -1,0 +1,45 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo__image {
+    width: 72px;
+    height: auto;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 24px;
+    font-family: var(--texto);
+    font-weight: 400;
+}
+
+span {
+    color: var(--texto-logo-cor);
+}
+
+.login {
+    background-color: var(--cor-botao);
+    color: var(--cor-branco);
+    padding: 16px;
+    border-radius: 8px;
+}
+
+@media (max-width: 900px) {
+    .menu {
+        display: none;
+    }
+
+}

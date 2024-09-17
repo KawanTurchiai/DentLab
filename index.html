@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DentLab</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://kit.fontawesome.com/6cde816448.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="logo">
+                <li> <img id="logo__image" src="./Imagens/logo.svg" alt="Logo"> </li>
+                <li>
+                    <h1 class="titulo__logo"> Dent<span>Lab</span> </h1>
+                </li>
+            </ul>
+            <ul class="menu">
+                <li> <a href="#sobre">SOBRE</a> </li>
+                <li> <a href="#servicos">SERVIÇOS</a> </li>
+                <li> <a href="#profissionais">ESPECIALISTA</a> </li>
+                <li> <a class="login" href="login.html">LOGIN</a> </li>
+            </ul>
+        </nav>
+        <hgroup>
+            <h1 class="titulo__principal">Nós nos importamos</h1>
+            <h1 class="titulo__principal">com seu sorriso</h1>
+            <h2 class="texto texto__cliente">Com mais de 10.000 mil clientes satisfeitos, <br> somos referência
+                absoluta.</h2>
+            <a href="" class="btn">TENHO INTERESSE</a>
+        </hgroup>
+
+        <img src="./Imagens/fotoPrincipal.svg" alt="Imagem Principal" class="imagem__principal">
+    </header>
+    <section class="vantagens">
+        <div class="laranja">
+            <div class="card margin">
+                <img class="vantagens__image" src="./Imagens/Atendimento.png" alt="Atendimento">
+                <h3 class="sub__titulo"> Atendimento de Qualidade</h3>
+                <p class="texto center">Nossa prioridade é atendê-lo bem.</p>
+            </div>
+        </div>
+
+        <div class="roxo">
+            <div class="card margin">
+                <img class="vantagens__image" src="./Imagens/Adicao.png" alt="Adição">
+                <h3 class="sub__titulo"> Profissionais Experientes</h3>
+                <p class="texto center">Dispomos de uma equipe altamente qualificada.</p>
+            </div>
+        </div>
+
+        <div class="laranja__claro" id="sobre">
+            <div class="card margin">
+                <img class="vantagens__image" src="./Imagens/estrelas.png" alt="Estrelas">
+                <h3 class="sub__titulo"> Nota Máxima</h3>
+                <p class="texto center">Nossa central de atendimento obteve nota máxima.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="mensagem">
+        <img src="./Imagens/servicos.png" alt="Principais Serviços" class="img__mensagem">
+        <hgroup class="hgroup__mensagem">
+            <h1 class="titulo">Há muitas razões para nos escolher</h1>
+            <h6 class="texto"> <span class="velocidade">Velocidade:</span> Somos rápidos e ageis em nossos
+                procedimentos.
+                Sorria com confiança! Cuide da sua saúde bucal com nossa
+                equipe experiente e tecnologia de ponta</h6>
+            <h6 class="texto"> <span class="simplicidade">Simplicidade: </span>Invista em seu sorriso e colha os
+                benefícios de
+                uma vida mais feliz e saudável! Agende sua consulta agora mesmo! Nossos especialistas utilizam as mais
+                recentes
+                técnicas e equipamentos para garantir o melhor resultado possível.
+            </h6>
+            <h6 class="texto" id="servicos"> <span class="qualidade">Qualidade: </span>Seu sorriso merece o melhor! No nosso
+                Consultório
+                Odontológico, nossa missão é proporcionar um atendimento
+                odontológico excepcional, tornando seu sorriso mais brilhante e saudável.
+            </h6>
+        </hgroup>
+    </section>
+
+    <main>
+        <h1 class="titulo center">Conheça nossos serviços principais</h1>
+        <h6 class="texto center">Oferecemos uma ampla gama de serviços para cuidar da saúde bucal dos pacientes.
+            Os principais serviços incluem:</h6>
+
+        <section class="div__cards">
+            <div class="card">
+                <img class="img__card" src="./Imagens/clareamento.svg" alt="clareamento">
+                <h1 class="sub__titulo center">Clareamento</h1>
+                <p class="texto center">Melhoria da aparência dos dentes e do sorriso, através de clareamento, facetas,
+                    restaurações estéticas e outros procedimentos.</p>
+            </div>
+            <div class="card">
+                <img class="img__card" src="./Imagens/consulta.svg" alt="consulta">
+                <h1 class="sub__titulo center">Consulta</h1>
+                <p class="texto center">Avaliação geral da saúde bucal, histórico médico, detecção de problemas e
+                    planejamento do tratamento adequado.</p>
+            </div>
+            <div class="card">
+                <img class="img__card" src="./Imagens/extracao.svg" alt="extração">
+                <h1 class="sub__titulo center">Extração</h1>
+                <p class="texto center">Remoção de dentes danificados, impactados ou que não podem ser salvos por outros
+                    tratamentos.</p>
+            </div>
+            <div class="card" id="profissionais">
+                <img class="img__card" src="./Imagens/aparelho.svg" alt="aparelho">
+                <h1 class="sub__titulo center">Aparelho</h1>
+                <p class="texto center">Correção de problemas de oclusão e alinhamento dos dentes, utilizando aparelhos
+                    ortodônticos fixos ou removíveis.</p>
+            </div>
+        </section>
+
+        <section class="profissionais">
+            <hgroup class="hgroup__profissional">
+                <h1 class="titulo">Nossos Profissionais</h1>
+                <h3 class="texto justificado">Você merece o sorriso mais radiante, e nós temos a equipe perfeita para
+                    tornar isso
+                    possível! Bem-vindo à nossa clínica odontológica, onde a saúde, o bem-estar e a beleza do seu
+                    sorriso são a nossa maior prioridade. Nossos dentistas altamente qualificados e experientes estão
+                    aqui para proporcionar um atendimento excepcional e personalizado, garantindo resultados de tirar o
+                    fôlego.</h3>
+            </hgroup>
+            <img src="./Imagens/dentista.png" alt="" class="img__profissional">
+
+            
+        </section>
+        <div class="carousel" 
+            data-flickity='{ "freeScroll": true }'>
+            <div class="carousel-cell">
+                <div class="carousel__card">
+                    <img src="./Imagens/foto.jpg" alt="" class="img__carousel">
+                    <h1 class="sub__titulo">Thier Alarcon</h1>
+                    <p class="texto">Esse é o melhor consultório de Osasco-SP</p>
+                    <img class="carousel__image" src="./Imagens/5estrelas.png" alt="Estrelas">
+                </div>
+            </div>
+
+            <div class="carousel-cell">
+                <div class="carousel__card">
+                    <img src="./Imagens/foto.jpg" alt="" class="img__carousel">
+                    <h1 class="sub__titulo">Thier Alarcon</h1>
+                    <p class="texto">Esse é o melhor consultório de Osasco-SP</p>
+                    <img class="carousel__image" src="./Imagens/5estrelas.png" alt="Estrelas">
+                </div>
+            </div>
+
+            <div class="carousel-cell">
+                <div class="carousel__card">
+                    <img src="./Imagens/foto.jpg" alt="" class="img__carousel">
+                    <h1 class="sub__titulo">Thier Alarcon</h1>
+                    <p class="texto">Esse é o melhor consultório de Osasco-SP</p>
+                    <img class="carousel__image" src="./Imagens/5estrelas.png" alt="Estrelas">
+                </div>
+            </div>
+
+            <div class="carousel-cell">
+                <div class="carousel__card">
+                    <img src="./Imagens/foto.jpg" alt="" class="img__carousel">
+                    <h1 class="sub__titulo">Thier Alarcon</h1>
+                    <p class="texto">Esse é o melhor consultório de Osasco-SP</p>
+                    <img class="carousel__image" src="./Imagens/5estrelas.png" alt="Estrelas">
+                </div>
+            </div>
+
+            <div class="carousel-cell">
+                <div class="carousel__card">
+                    <img src="./Imagens/foto.jpg" alt="" class="img__carousel">
+                    <h1 class="sub__titulo">Thier Alarcon</h1>
+                    <p class="texto">Esse é o melhor consultório de Osasco-SP</p>
+                    <img class="carousel__image" src="./Imagens/5estrelas.png" alt="Estrelas">
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <hgroup class="info">
+            <ul class="logo">
+                <li> <img id="logo__image" src="./Imagens/logo.svg" alt="Logo"> </li>
+                <li>
+                    <h1 class="titulo__logo__footer"> Dent<span>Lab</span> </h1>
+                </li>
+            </ul>
+            <h2 class="textoFooter"> <i class="fa-solid fa-map-location-dot"></i> Osasco-SP </h2>
+            <h2 class="textoFooter"> <i class="fa-solid fa-phone"></i> (11) 9 7700-7070 </h2>
+        </hgroup>
+
+        <hgroup class="navegacao">
+            <h3 class="textoFooterTitulo">Navegação do site: </h3>
+            <a href="#sobre"> <h4 class="textoFooter">Sobre</h4> </a>
+            <a href="#servicos"> <h4 class="textoFooter">Serviços</h4> </a>
+            <a href="#profissionais"> <h4 class="textoFooter">Especialistas</h4> </a>
+        </hgroup>
+
+        <hgroup class="servicos">
+            <h3 class="textoFooterTitulo">Serviços: </h3>
+            <a href=""> <h4 class="textoFooter">Extração</h4> </a>
+            <a href=""> <h4 class="textoFooter">Aparelho</h4> </a>
+            <a href=""> <h4 class="textoFooter">Clareamento</h4> </a>
+        </hgroup>
+        <hr class="linha">
+    </footer>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+
+</html>

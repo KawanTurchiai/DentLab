@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+    --texto-logo-cor: rgb(118, 63, 180);
+    --texto-logo: "Titan One";
+    --texto: "Work Sans";
+    --cor-botao: #008df5;
+    --cor-branco: white;
+    --cor-laranja: #ff9021;
+    --cor-roxo: #9156e7;
+    --cor-laranja-claro: #e8af35;
+    --cor-velocidade: rgb(65, 212, 201);
+    --cor-simplicidade: #325b9c;
+    --cor-velocidade: #0093fd;
+    --cor-fundo-section-profissional: rgb(239, 248, 254, 1);
+    --cor-fundo-footer: rgba(9, 29, 64, 1);
+    
+}
