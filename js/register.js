@@ -1,9 +1,7 @@
-// register.js
-
 // Função para registrar usuário
 function registerUser(email, password) {
-    //Pegar os usuários armazenados no localStorafe
-    let users =JSON.parse(localStorage.getItem('users')) || [];
+    // Pegar os usuários armazenados no localStorage
+    let users = JSON.parse(localStorage.getItem('users')) || [];
 
     const userExists = users.some(user => user.email === email);
 
@@ -11,9 +9,9 @@ function registerUser(email, password) {
         alert('Usuário já registrado');
     } else {
         // Adicionar o novo usuário
-        users.push({ email, password});
-        
-        // Salvar de volta no LocalStorage
+        users.push({ email, password });
+
+        // Salvar de volta no localStorage
         localStorage.setItem('users', JSON.stringify(users));
 
         alert('Cadastro realizado com sucesso');
@@ -25,17 +23,15 @@ document.getElementById('registerButton').addEventListener('click', (event) => {
     event.preventDefault();
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
-    const confirmpassword = document.getElementById('confirmpassword').value;
+    const confirmPassword = document.getElementById('confirmPassword').value;
 
     // Verificar se as senhas são iguais
-
-    if (password !== confirmpassword) {
+    if (password !== confirmPassword) {
         alert('Senhas não são iguais!');
     } else {
         // Chamar a função de registro
         registerUser(email, password);
     }
-    
 });
 
         
