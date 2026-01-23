@@ -28,15 +28,22 @@
     <section class="area__formulario">
         <img class="imagem__login" src="./Imagens/dentist-clinic.svg" alt="Dent Lab">
             <form action="">
-                <h1 class="titulo_form">Olá👋, tudo bem?</h1>
-                <p class="texto_form">Entre com seu e-mail e senha no nosso sistema.</p>
-                <label for="email">E-mail</label>
-                <input id="email" type="email" placeholder="E-mail" required>
-                <label for="password">Senha</label>
-                <input id="password" type="password" placeholder="Senha" required>
-                <label for="password">Confirmar Senha</label>
-                <input id="confirmPassword" type="password" placeholder="Senha" required>
-                <button id="registerButton">CADASTRAR-SE</button>
+                <h1 class="titulo_form">Olá👋, tudo bem?</h1> <!-- Cabeçalho do formulário -->
+                <p class="texto_form">Entre com seu e-mail e senha no nosso sistema.</p> <!-- Descrição -->
+
+                <label for="name">Usuário</label> <!-- Texto que aparece acima do input -->
+                <input id="name" type="text" placeholder="Usuário" required> <!-- Campo de texto para o usuário -->
+
+                <label for="email">E-mail</label> <!-- Texto do campo e-mail -->
+                <input id="email" type="email" placeholder="E-mail" required> <!-- Campo de e-mail -->
+
+                <label for="password">Senha</label> <!-- Texto do campo senha -->
+                <input id="password" type="password" placeholder="Senha" required> <!-- Campo senha (oculto) -->
+
+                <label for="confirmPassword">Confirmar Senha</label> <!-- Texto do campo confirmar senha -->
+                <input id="confirmPassword" type="password" placeholder="Senha" required> <!-- Campo confirmar senha -->
+
+                <button id="registerButton">CADASTRAR-SE</button> <!-- Botão de envio do formulário -->
             </form>
     </section>
 </body>
